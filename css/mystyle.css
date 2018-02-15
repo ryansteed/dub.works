@@ -1,0 +1,195 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+/*
+#1C58A6 myblue
+mywhite #F9F7E1
+myred #DA1B41
+mygrey #CCCCCC
+*/
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    /*padding-top: 25px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /* background-color: #CCCCCC; */
+
+}
+
+.navbar *{
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.navbar-static-top{
+    margin-bottom: 0 !important;
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+
+    position: relative;
+    float: middle;
+    width:  250px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    /*height: 50%;*/
+    margin-top: 0;
+}
+
+/* --- Header slider --- */
+#header-wrapper {
+	width: 100%;
+	min-height: 600px;
+
+	text-align:center;
+}
+
+#header-wrapper.header-slider {
+	background: #444 url(../img/whitehouse.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    margin-bottom: 10px;
+
+    padding-top: 0 !important;
+
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+    margin-top: 0;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.panel > .panel-heading{
+    background-color: #DA1B41;
+    color: #ffffff;
+}
+
+/*typed.js*/
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+
+  font-size: 150%;
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+.cs{
+    background: #1C58A6;
+}
+
+.cs-top{
+
+}
+
+.cs *{
+    color: white;
+
+}
+
+.btn-primary{
+    background: #1C58A6;
+}
+
+.btn-primary:hover{
+    background: #DA1B41;
+    border-color: #DA1B41;
+}
+
+.over-text{
+    position: absolute;
+    margin: 0 auto;
+    top: 40%;
+    left: 0; /*center text inside canvas*/
+    right: 0;
+
+
+}
+
+
+/**/
