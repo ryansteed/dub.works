@@ -8,7 +8,7 @@ p {
 }
 
 a {
-  color: #5DBCD2;
+  color: #ffb347;
 }
 
 a:hover {
@@ -16,7 +16,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #5DBCD2 !important;
+  color: #ffb347 !important;
 }
 
 h1,
@@ -64,8 +64,8 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #5DBCD2;
-  border-color: #5DBCD2;
+  background-color: #ffb347;
+  border-color: #ffb347;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -89,12 +89,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #5DBCD2;
+  background: #ffb347;
   text-shadow: none;
 }
 
 ::selection {
-  background: #5DBCD2;
+  background: #ffb347;
   text-shadow: none;
 }
 
@@ -117,12 +117,12 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #5DBCD2;
+  background-color: #ffb347;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #5DBCD2;
+  color: #ffb347;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
@@ -143,7 +143,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #5DBCD2;
+  color: #ffb347;
 }
 
 @media (min-width: 992px) {
@@ -461,7 +461,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #5DBCD2;
+  background-color: #ffb347;
 }
 
 .timeline > li .timeline-image h4 {
@@ -631,7 +631,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #5DBCD2;
+  border-color: #ffb347;
   box-shadow: none;
 }
 
@@ -701,7 +701,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #5DBCD2;
+  background-color: #ffb347;
 }
 
 .vertical-center {
