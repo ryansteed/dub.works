@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: darkorange;
 }
 
 .text-primary {
@@ -69,8 +69,8 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #2A303C !important;
-  border-color: #2A303C !important;
+  background-color: darkorange !important;
+  border-color: darkorange !important;
   color: white;
 }
 
@@ -85,7 +85,7 @@ section h3.section-subheading {
 }
 
 .btn-tertiary:hover, .btn-tertiary:focus {
-  color: #2A303C !important;
+  color: darkorange !important;
 }
 
 ::-moz-selection {
