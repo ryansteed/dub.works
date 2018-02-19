@@ -15,7 +15,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #0085A1;
+  color: #ffb347;
 }
 
 blockquote {
@@ -89,7 +89,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #ffb347;
 }
 
 .post-preview > a > .post-title {
@@ -117,7 +117,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #0085A1;
+  color: #ffb347;
 }
 
 @media only screen and (min-width: 768px) {
