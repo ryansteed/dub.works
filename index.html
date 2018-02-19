@@ -1,287 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Dem Soft site">
-    <meta name="author" content="Joseph Schiarizzi">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Innovation Center, student-run incubator at GWU: project and feature page.">
+    <meta name="author" content="Ryan Steed">
+    <meta name="robots" content="index,follow">
+    <meta property="og:title" content="GW Innovation Center"/>
+    <meta property="og:image" content="img/logo.png"/>
+    <meta property="twitter:card" content="summary_large_image">
+    <link rel="icon" href="img/logo.png" type="image/png">
 
-    <title>Dub Works</title>
+    <title>GWU Innovation Center</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/mystyle.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
 
-    <!--Constellation-->
-    <script type="text/javascript" src="js/Stats.js"></script>
-    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113683350-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-113683350-1');
+      gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
     </script>
-    <script src="https://github.com/thenextweb/constellation/releases/download/v1.5.5/constellation.min.js"></script>
 
 
-</head>
+  </head>
 
-<body>
+  <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Dub Works</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="cal.html">Events</a>
-                    </li>
-                    <li>
-                        <a href= "mailto:sebohood@gmail.com?Subject=Hello%20Dub%20Works!">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#friends">Members</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">GWIC</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Incubator</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#events">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+          </ul>
         </div>
-        <!-- /.container -->
+      </div>
     </nav>
 
-
-    <!-- image header-->
-        <div class="cs" align="center">
-                <!--<h1 class="over-text">
-                     <span id="typed"> </span>
-                    <span id="typed-cursor"></span>
-                </h1>-->
-                <div class="over-text" align="center">
-                    <h1>Student run incubation</h1>
-                    <h3>Make connections that matter</h3>
-                </div>
-
-        <canvas id="myCanvas"></canvas>
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in"></div>
+          <div class="intro-heading text-uppercase"></div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://docs.google.com/forms/d/1p4G9Eyc0JvHDHyVg-vMeMfsZgB-XzXiNyk-Lq89oQ-Y/edit?ts=5a79f087">Get Funded</a>
         </div>
-        <br><br>
+      </div>
+    </header>
 
-
-    <!-- Page Content -->
-
-
-        <!-- Marketing Icons Section -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-handshake-o"></i> Collaboration</h4>
-                        </div>
-                        <div class="panel-body">
-                            <p>Interact with students from across GWU, and find the teammates needed to take a project to the next level.</p>
-                            <!--<a href="#" class="btn btn-default">Learn More</a>-->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-connectdevelop"></i> Mentorship</h4>
-                        </div>
-                        <div class="panel-body">
-                            <p>Gain insights and grow, with the help of a world class network of mentors, professors, and alumni with experience to spare.</p>
-                            <!--With the support of the Mentors in Residence program, our own networks, and other GW resources we have the best mentors that have done things.  Now they help us do things.-->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-diamond"></i> Resources</h4>
-                        </div>
-                        <div class="panel-body">
-                            <p>Access expert-led workshops, talks, co-working space, funding opportunities, and more in our refurbished machine shop.</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">IC Incubator</h2>
+            <h3 class="section-subheading text-muted">alumni-sponsored seed fund for student startups</h3>
+          </div>
         </div>
-        <!-- /.row -->
-
-
-        <!-- Portfolio Section -->
-        <!-- Example
-
-        <div class="col-md-4 col-sm-6">
-            <p>Company Name</p>
-            <a href="website link">
-                <img class="img-responsive img-portfolio img-hover" src="img/portfolio-items/company.png" alt="">
-            </a>
+        <div class="row text-center">
+          <div class="col-md-4">
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <a href="https://docs.google.com/forms/d/1p4G9Eyc0JvHDHyVg-vMeMfsZgB-XzXiNyk-Lq89oQ-Y/edit?ts=5a79f087">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-flask fa-stack-1x fa-inverse btn-tertiary"></i>
+              </a>
+            </span>
+            <h4 class="service-heading">apply</h4>
+            <p class="text-muted">funding, expert advice, and startup support from the GW Innovation Center</p>
+          </div>
+          <div class="col-md-4">
+          </div>
         </div>
+      </div>
+    </section>
 
-        End example.-->
-
-
-        <div class="container">
-            <div class="row">
-                <div class="col-10 offset2">
-                    <h2 id="friends">Our friends </h2>
-                    <hr>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <p>Agnes</p>
-                    <a href="https://www.agnes.io/">
-                        <img class="img-responsive img-portfolio img-hover" src="img/portfolio-items/agnes.png" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <p>Berg Bites</p>
-                    <a href="http://bergbites.com">
-                        <img class="img-responsive img-portfolio img-hover" src="http://bergbites.com/wp-content/uploads/2017/01/Berg_Bites_Package_Sunflower_White_Chocolate-650x646.png" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <p>Drwr</p>
-                    <a href="http://rowlandz.com/drwr-static/index.html">
-                        <img class="img-responsive img-portfolio img-hover" src="img/portfolio-items/drwr.png" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <p>Fourth Wave</p>
-                    <a href="http://fourthwavestudios.com">
-                        <img class="img-responsive img-portfolio img-hover" src="img/portfolio-items/4ws.png" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <p>Give Butter</p>
-                    <a href="https://givebutter.com/story">
-                        <img class="img-responsive img-portfolio img-hover" src="img/portfolio-items/givebutter.png" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <p>Hackital</p>
-                    <a href="http://hackital.io">
-                        <img class="img-responsive img-portfolio img-hover" src="img/portfolio-items/hackital.png" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <p>Launch Pad</p>
-                    <a href="https://www.facebook.com/LaunchPadGW/">
-                        <img class="img-responsive img-portfolio img-hover" src="img/portfolio-items/launchpad.png" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <p>Office of Innovation &amp Entrepreneurship</p>
-                    <a href="website link">
-                        <img class="img-responsive img-portfolio img-hover" src="img/portfolio-items/entrepreneurship.png" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <p>Represently</p>
-                    <a href="https://represently.com/">
-                        <img class="img-responsive img-portfolio img-hover" src="img/portfolio-items/represently.png" alt="">
-                    </a>
-                </div>
-
-            </div>
+    <!-- About -->
+    <section id="about" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">About</h2>
+            <h3 class="section-subheading text-muted">what we do</h3>
+          </div>
         </div>
-        <!-- /.row -->
-
-        <div class="container">
-            <div class="row">
-                <div class="s.col-md-3 .offset-md-3">
-                    <a href="" class="btn btn-primary">Apply to Join</a>
-                </div>
-            </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="vertical-center">
+              The GW Innovation Center (GWIC) in Tompkins Hall on the Foggy 
+              Bottom campus is the first dedicated physical place for cross- 
+              departmental and multidisciplinary innovation on campus. The 
+              GWIC provides a supportive climate for ideation, creativity and 
+              entrepreneurial thinking; and it leverages existing resources to 
+              engage students, faculty, staff, alumni, and leaders from the 
+              community to address critical challenges.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="img/welcome.jpg" alt="">
+          </div>
         </div>
-        <!-- /.row-->
-
-
-
-        <hr>
-        <br>
-        <div class="container">
-            <div class="row">
-                <h3>See what's going on in our student incubator.</h3>
-                <a href="cal.html" class="btn btn-primary">Events</a>
-                or
-                <a href="https://join.slack.com/t/dubworks/signup" class="btn btn-primary"><i class="fa fa-fw fa-slack"></i> Join us on Slack</a>
-
-            </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid" src="img/room.jpg" alt="">
+          </div>
+          <div class="col-md-6">
+            <p class="vertical-center">
+              The focal point of the 
+              GWIC is to facilitate knowledge transfer and acquisition of hands- 
+              on skills, new domain exploration, interaction with peers from 
+              other disciplines, alumni, and like-minded people. The GWIC aids 
+              discussions around disruptive ideas, exposure to art and affords 
+              real-world opportunities for GW students aspiring to create value 
+              for others.
+            </p>
+          </div>
         </div>
-        <br>
-        <hr>
+      </div>
+    </section>
 
-        <!-- Call to Action Section -->
-        <!--
-        <div class="container">
-            <div class="well">
-                <div class="row">
-                    <div class="col-md-8">
-                        <p>Interested in joining our community or have a question? Get in conact!</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a class="btn btn-lg btn-default btn-block" href="#">Contact us</a>
-                    </div>
-                </div>
-            </div>
+    <section id="events">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Events</h2>
+            <h3 class="section-subheading text-muted">coming up in Tompkins M06</h3>
+          </div>
         </div>
-        <hr>-->
+        <div class="row">
+          <iframe src="https://calendar.google.com/calendar/b/1/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=csp8dpd2enffr9jn1j9rva2htc%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+      </div>
+    </section>
 
-        <!-- Footer -->
-        <div class="container">
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Dub Works 2017. All rights reserved.</p>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <!-- /.container -->
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Contact Us</h2>
+            <h3 class="section-subheading text-muted">Reach out to our co-director and chief evangelist, Annamaria Konya-Tannon, at <a href="mailto:annamaria@email.gwu.edu">annamaria@gwu.edu</a>.</h3>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- jQuery -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; GW Innovation Center 2018</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/gwinnocenter">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/gwinnovationcenter/">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://join.slack.com/t/dubworks/signup">
+                  <i class="fa fa-slack"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </footer>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- typed -->
-    <script src="js/typed.js"></script>
-    <!-- typer-->
-    <script src="js/typer.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="js/constellations.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-</body>
+    <!-- Custom scripts for this template -->
+    <script src="js/main.js"></script>
+
+  </body>
 
 </html>
