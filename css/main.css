@@ -85,7 +85,7 @@ section h3.section-subheading {
 }
 
 .btn-tertiary:hover, .btn-tertiary:focus {
-  color: darkorange !important;
+  color: black !important;
 }
 
 ::-moz-selection {
