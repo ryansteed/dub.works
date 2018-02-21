@@ -53,83 +53,28 @@ $thisUrl = $baseUrl . 'blog.php'
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="post-preview">
-              <a href="posts/19-Feb-18.html">
-                <h2 class="post-title">
-                  3D Metal Printing
-                </h2>
-                <h3 class="post-subtitle">
-                  Outside the Box, Column 2
-                </h3>
-              </a>
-              <p class="post-meta">Posted by
-                <a href="#">Randy Graves</a>
-                on February 19, 2018</p>
-            </div>
-            <hr>
-            <div class="post-preview">
-              <a href="posts/12-Feb-18.html">
-                <h2 class="post-title">
-                  Real Innovation
-                </h2>
-                <h3 class="post-subtitle">
-                  Outside the Box, Column 1
-                </h3>
-              </a>
-              <p class="post-meta">Posted by
-                <a href="#">Randy Graves</a>
-                on February 12, 2018</p>
-            </div>
-            <hr>            
+            <?php foreach($posts as $key => $post):?>
+              <div class="post-preview">
+                <a href="<?= $basePostUrl ?>/<?= $postsUri ?><?= $post["file"] ?>">
+                  <h2 class="post-title">
+                    <?= $post["title"]; ?>
+                  </h2>
+                  <h3 class="post-subtitle">
+                    <?= $post["blog"]; ?>, Column <?php echo count($posts)-$key; ?>
+                  </h3>
+                </a>
+                <p class="post-meta">Posted by
+                  <a href="#"><?= $post["author"]; ?></a>
+                  on <?= $post["date"]; ?></p>
+              </div>
+              <hr>
+            <?php endforeach; ?>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Let us know what you think.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone" data-validation-required-message="Please enter your phone number.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+    <?php include_once('contact_us.php');?>
 
     <?php include_once('footer.php');?>
 
