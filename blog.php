@@ -7,11 +7,9 @@ $thisUrl = $baseUrl . 'blog.php'
 <html lang="en">
 
   <head>
-
     <?php include_once('header.php');?>
     <title>Dub Works - Outside the Box</title>
     <link href="<?= $baseUrl ?>css/clean-blog.css" rel="stylesheet">
-
   </head>
 
   <body>

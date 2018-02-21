@@ -10,4 +10,6 @@
 	if ( ! empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' ) { $httpSecure = true; }
 
 	$baseUrl = ( $httpSecure ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $baseUri;
+
+	// need to iterate through all posts in file system (as JSON?) or iterate through single JSON file
 ?>
