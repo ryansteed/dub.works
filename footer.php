@@ -17,7 +17,7 @@
             </a>
           </li>
           <li class="list-inline-item">
-            <a href="https://join.slack.com/t/dubworks/signup">
+            <a href="https://join.slack.com/t/dubworks/shared_invite/enQtMzE5OTQ2MDU0NTM1LTNiMDMzNjQ3NDA1YTgyZmFkN2Y4NzFlODhjYWI4NTE1NWY3ZmRiZmQ1Nzc4ZjNmNGRlMTZiNDJkMDNhMzYzOWI">
               <i class="fa fa-slack"></i>
             </a>
           </li>
