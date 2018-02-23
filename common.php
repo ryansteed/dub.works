@@ -38,4 +38,14 @@
 	// $title = $jfo->result->title;
 	// // copy the posts array to a php var
 	// $posts = $jfo->result->posts;
+
+	// Finding files on server
+	// Look for the fiel on disk, now senstiive to symlinks
+	$jsonFile =  $postsUri . $pathInfo;
+	if ( ! file_exists ( $jsonFile ) ) {
+	   if ( ! is_link( $jsonFile ) ) { 
+	    die("No Such File or Link: " . $jsonFile);
+	   }
+	}
+	
 ?>
