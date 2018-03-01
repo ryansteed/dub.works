@@ -2,6 +2,9 @@
 	$baseUri = $prefixUri;
 	$postsUri = $postsPath."/";
 	$postUri = $prefixUri."post.php";
+	$imgUri = "img/";
+	$blogImgUri = $imgUri."blog/";
+
 
 	$pathInfo = $_SERVER['PATH_INFO'];
 
