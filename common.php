@@ -1,6 +1,6 @@
 <?php
 	$baseUri = $prefixUri;
-	$postsUri = "posts/";
+	$postsUri = $postsPath."/";
 	$postUri = $prefixUri."post.php";
 
 	$pathInfo = $_SERVER['PATH_INFO'];
@@ -20,10 +20,17 @@
 	$dir = new DirectoryIterator($postsUri);
 	foreach ($dir as $fileinfo) {
 	    if (!$fileinfo->isDot()) {
-	        $string = file_get_contents($postsUri.$fileinfo->getFilename());
+	    	$filename = $fileinfo->getFilename();
+	        $string = file_get_contents($postsUri.$filename);
 	        $json_data = json_decode($string,true);
-	        $json_data["file"] = $fileinfo->getFilename();
-	        array_push($posts, $json_data);
+	        $data = array(
+	        	"file" => $filename,
+	        	"author" => $json_data["author"],
+	        	"date" => $json_data["date"],
+	        	"title" => $json_data["title"],
+	        	"blog" => $json_data["blog"],
+	        );
+	        array_push($posts,$data);
 	    }
 	}
 
@@ -41,11 +48,13 @@
 
 	// Finding files on server
 	// Look for the fiel on disk, now senstiive to symlinks
-	$jsonFile =  $postsUri . $pathInfo;
+	$jsonFile =  $postsPath.$pathInfo;
 	if ( ! file_exists ( $jsonFile ) ) {
 	   if ( ! is_link( $jsonFile ) ) { 
 	    die("No Such File or Link: " . $jsonFile);
 	   }
+	} else {
+	    $string = file_get_contents($jsonFile);
+	    $json_data = json_decode($string,true);
 	}
-	
 ?>
