@@ -12,38 +12,7 @@ include_once('config.php');
 
   <body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="<?= $baseUrl ?>#page-top">Dub Works</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?= $baseUrl ?>#services">Incubator</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?= $baseUrl ?>#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?= $baseUrl ?>#events">Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?= $baseUrl ?>#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="<?= $baseUrl ?>blog.php">Blog</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <?php include_once('nav.php');?>
 
     <!-- Header -->
     <header class="masthead">
@@ -51,7 +20,7 @@ include_once('config.php');
         <div class="intro-text">
           <div class="intro-lead-in"></div>
           <div class="intro-heading text-uppercase"></div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://docs.google.com/forms/d/1p4G9Eyc0JvHDHyVg-vMeMfsZgB-XzXiNyk-Lq89oQ-Y/edit?ts=5a79f087">Get Funded</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://docs.google.com/forms/d/1p4G9Eyc0JvHDHyVg-vMeMfsZgB-XzXiNyk-Lq89oQ-Y/edit?ts=5a79f 087">Get Funded</a>
         </div>
       </div>
     </header>
@@ -128,32 +97,8 @@ include_once('config.php');
       </div>
     </section>
 
-    <section id="events">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Events</h2>
-            <h3 class="section-subheading text-muted">coming up in Tompkins M06</h3>
-          </div>
-        </div>
-        <div class="row">
-          <iframe src="https://calendar.google.com/calendar/b/1/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=csp8dpd2enffr9jn1j9rva2htc%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-        </div>
-      </div>
-    </section>
-
     <?php include_once('contact_us.php'); ?>
     <?php include_once('footer.php');?>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/main.js"></script>
 
   </body>
 

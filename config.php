@@ -4,6 +4,7 @@
 
 	// File path setup
 	$postsPath = "posts";
+	$imgUri = "img/";
 
 	// Development environment
 	$prefixUri   = '/dub.works/';

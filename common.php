@@ -1,11 +1,19 @@
 <?php
 	$baseUri = $prefixUri;
-	$postsUri = $postsPath."/";
+	$postsUri = $postsPath;
+	
+	$blogUri = "blog";
+	$blogPath = $postsPath."/".$blogUri;
+	$blogImgUri = $blogUri."/";
+
+	$eventsUri = "events";
+	$eventsPath = $postsPath."/".$eventsUri;
+	$eventImgUri = $imgUri.$eventsUri."/";
+
+	$projectsUri = $postsPath."/projects";
+	
 	$postUri = $prefixUri."post.php";
-	$imgUri = "img/";
-	$blogImgUri = $imgUri."blog/";
-
-
+	
 	$pathInfo = $_SERVER['PATH_INFO'];
 
 	// The fully formed URL to the problem file.
@@ -18,16 +26,17 @@
 	$postFile = $pathInfo;
 	$postUrl = ( $httpSecure ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $postUri . $pathInfo;
 	$basePostUrl = ( $httpSecure ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $postUri;
+	$baseImageUrl = ( $httpSecure ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $imgUri;
 
 	$posts = array();
-	$dir = new DirectoryIterator($postsUri);
+	$dir = new DirectoryIterator($blogPath);
 	foreach ($dir as $fileinfo) {
 	    if (!$fileinfo->isDot()) {
 	    	$filename = $fileinfo->getFilename();
-	        $string = file_get_contents($postsUri.$filename);
+	        $string = file_get_contents($blogPath."/".$filename);
 	        $json_data = json_decode($string,true);
 	        $data = array(
-	        	"file" => $filename,
+	        	"file" => $blogUri."/".$filename,
 	        	"author" => $json_data["author"],
 	        	"date" => $json_data["date"],
 	        	"title" => $json_data["title"],

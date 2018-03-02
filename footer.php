@@ -23,16 +23,16 @@
           </li>
         </ul>
       </div>
-      <!-- <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          <li class="list-inline-item">
-            <a href="#">Privacy Policy</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">Terms of Use</a>
-          </li>
-        </ul>
-      </div> -->
     </div>
   </div>
 </footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="<?= $baseUrl ?>vendor/jquery/jquery.min.js"></script>
+<script src="<?= $baseUrl ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="<?= $baseUrl ?>vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="<?= $baseUrl ?>js/main.js"></script>
