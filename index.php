@@ -142,18 +142,7 @@ include_once('config.php');
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Reach out to our co-director and chief evangelist, Annamaria Konya-Tannon, at <a href="mailto:annamaria@email.gwu.edu">annamaria@gwu.edu</a>.</h3>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    <?php include_once('contact_us.php'); ?>
     <?php include_once('footer.php');?>
 
     <!-- Bootstrap core JavaScript -->
