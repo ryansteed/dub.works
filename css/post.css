@@ -6,7 +6,6 @@ body {
 
 p {
   line-height: 1.5;
-  margin: 30px 0;
 }
 
 p a {
@@ -24,14 +23,14 @@ h6 {
 }
 
 a {
-  color: #212529;
+  color: #ffb347;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:focus, a:hover {
-  color: #ffb347;
+  color: darkorange;
 }
 
 blockquote {
@@ -81,7 +80,6 @@ img::-moz-selection {
 header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;
-  background-color: #868e96;
   background-attachment: scroll;
   position: relative;
   -webkit-background-size: cover;
@@ -97,21 +95,20 @@ header.masthead .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #212529;
 }
 
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  padding: 200px 0 150px;
-  color: white;
+  padding: 150px 0 50px;
+  color: black;
 }
 
 @media only screen and (min-width: 768px) {
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
-    padding: 200px 0;
+    padding: 150px 0 50px;
   }
 }
 
@@ -168,7 +165,7 @@ header.masthead .post-heading .meta {
 }
 
 header.masthead .post-heading .meta a {
-  color: #fff;
+  color: #ffb347;
 }
 
 @media only screen and (min-width: 768px) {
@@ -186,7 +183,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #ffb347;
+  color: darkorange;
 }
 
 .post-preview > a > .post-title {
@@ -214,7 +211,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #ffb347;
+  color: darkorange;
 }
 
 @media only screen and (min-width: 768px) {
