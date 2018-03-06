@@ -8,6 +8,7 @@ include_once('config.php');
   <head>
     <title>dub.works</title>
     <?php include_once('header.php');?>
+    <link href="<?= $baseUrl ?>css/flip.css" rel="stylesheet">
   </head>
 
   <body id="page-top">
@@ -18,7 +19,18 @@ include_once('config.php');
     <header class="masthead">
       <div class="container">
         <div class="intro-text bg" data-ibg-bg="<?= $baseUrl ?>img/table.jpg">
-          <div class="intro-heading text-uppercase"><span class="intro-heading-emph">dub</span><span class="color-secondary">.works</span></div>
+          <div class="intro-heading text-uppercase Iam">
+            <span class="fixed"><span class="intro-heading-emph">dub</span><span class="color-secondary">.</span></span>
+            <b class="color-secondary">
+              <div class="innerIam">
+                works<br /> 
+                ideates<br />
+                builds<br />
+                creates<br />
+                happens<br />
+              </div>
+            </b>
+          </div>
         </div>
       </div>
     </header>
