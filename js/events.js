@@ -15,7 +15,7 @@ var left;
 
 function selectItem(e) {
 	if (e.target.classList.contains('active')) return;
-	
+	console.log("checking for no-displaY");
 	featured.style.backgroundImage = e.target.style.backgroundImage;
 	
 	for (var i = 0; i < galleryItems.length; i++) {
@@ -24,6 +24,8 @@ function selectItem(e) {
 	}
 	
 	e.target.classList.add('active');
+
+	$(".gallery").removeClass("no-display");
 }
 
 function galleryWrapLeft() {
@@ -94,25 +96,26 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 
 //Start this baby up
 (function init() {
-	var images = [
-		'https://s3-us-west-2.amazonaws.com/forconcepting/800Wide50Quality/car.jpg',
-		'https://s3-us-west-2.amazonaws.com/forconcepting/800Wide50Quality/city.jpg',
-		'https://s3-us-west-2.amazonaws.com/forconcepting/800Wide50Quality/deer.jpg',
-		'https://s3-us-west-2.amazonaws.com/forconcepting/800Wide50Quality/flowers.jpg',
-		'https://s3-us-west-2.amazonaws.com/forconcepting/800Wide50Quality/food.jpg',
-		'https://s3-us-west-2.amazonaws.com/forconcepting/800Wide50Quality/guy.jpg',
-		'https://s3-us-west-2.amazonaws.com/forconcepting/800Wide50Quality/landscape.jpg',
-		'https://s3-us-west-2.amazonaws.com/forconcepting/800Wide50Quality/lips.jpg',
-		'https://s3-us-west-2.amazonaws.com/forconcepting/800Wide50Quality/night.jpg',
-		'https://s3-us-west-2.amazonaws.com/forconcepting/800Wide50Quality/table.jpg'
-	];
-	
-	//Set Initial Featured Image
-	featured.style.backgroundImage = 'url(' + images[0] + ')';
-	
-	//Set Images for Gallery and Add Event Listeners
-	for (var i = 0; i < galleryItems.length; i++) {
-		galleryItems[i].style.backgroundImage = 'url(' + images[i] + ')';
-		galleryItems[i].addEventListener('click', selectItem);
-	}
+	$(".gallery-item").each(function(index) {
+		if (index == 0) {
+			console.log($(this).css("background-image"));
+			featured.style.backgroundImage = $(this).css("background-image");
+		}
+		$(this).on('click', selectItem);
+	});
+
+	//expand and contract
+	big = true;
+	$(".feature").hover(handlerIn, out);
 })();
+
+function handlerIn(e) {
+	$(".gallery-container").css("max-width","68%");
+	$(".gallery").css("opacity","0");
+	$(".gallery").css("max-height","0");
+}
+function out(e) {
+	$(".gallery-container").css("max-width","53%");
+	$(".gallery").css("opacity","1");
+	$(".gallery").css("max-height","100%");
+}

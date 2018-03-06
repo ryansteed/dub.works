@@ -9,13 +9,12 @@ foreach ($dir as $fileinfo) {
       array_push($events, $eventsPath."/".$filename);
     }
 }
-$events_json = json_encode($events);
 
 ?><!DOCTYPE html>
 <html lang="en">
 
   <head>
-    <title>Dub Works - Events</title>
+    <title>dub.hosts</title>
     <?php include_once('header.php');?>
     <link href="<?= $baseUrl ?>css/events.css" rel="stylesheet">
   </head>
@@ -33,12 +32,12 @@ $events_json = json_encode($events);
         <div class="gallery-wrapper">
           <div class="gallery">
               <?php 
-                foreach($events as $eventFilePath):
-                  $string = file_get_contents($blogPath."/".$filename);
+                foreach($events as $key => $eventFilePath):
+                  $string = file_get_contents($eventFilePath);
                   $json_data = json_decode($string,true);
               ?>
                 <div class="item-wrapper">
-                  <figure class="gallery-item image-holder r-3-2 active transition" style="background-image: <?= $eventImgUri ?><?= $json_data["image"] ?>"></figure>
+                  <figure class="gallery-item image-holder r-3-2 <?php if($key==0){ echo('active featured-item');}?> transition" style="background-image: url(<?= $eventImgUri ?><?= $json_data['image'] ?>)"></figure>
                 </div>
               <?php endforeach; ?>
           </div>
@@ -51,7 +50,7 @@ $events_json = json_encode($events);
       </div>
     </header>
 
-    <section id="calendar">
+    <section id="calendar" class="bg-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">

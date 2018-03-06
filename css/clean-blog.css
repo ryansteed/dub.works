@@ -7,16 +7,6 @@ p a {
   text-decoration: underline;
 }
 
-a {
-  color: #212529;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-a:focus, a:hover {
-  color: #ffb347;
-}
 
 blockquote {
   font-style: italic;
@@ -188,16 +178,7 @@ form .form-group:first-child .floating-label-form-group {
   border-top: 1px solid #dee2e6;
 }
 
-header.masthead {
-  background-image: none;
-}
 header.masthead .intro-text {
-  padding-top: 250px;
-  padding-bottom: 100px;
-}
-#mainNav {
-  background-color: black;
-}
-.intro-text {
+  background-image: none;
   color: black;
 }

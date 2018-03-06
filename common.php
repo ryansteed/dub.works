@@ -10,7 +10,9 @@
 	$eventsPath = $postsPath."/".$eventsUri;
 	$eventImgUri = $imgUri.$eventsUri."/";
 
-	$projectsUri = $postsPath."/projects";
+	$projectsUri = "projects";
+	$projectsPath = $postsPath."/".$projectsUri;
+	$projectImgUri = $imgUri.$projectsUri."/";
 	
 	$postUri = $prefixUri."post.php";
 	

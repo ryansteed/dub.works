@@ -1,0 +1,38 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+/*
+#1C58A6 myblue
+mywhite #F9F7E1
+myred #DA1B41
+mygrey #CCCCCC
+*/
+
+.img-portfolio {
+    margin-bottom: 30px;
+
+    position: relative;
+    float: middle;
+    width:  250px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+/* Responsive Styles */
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+}
+

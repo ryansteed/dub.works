@@ -7,20 +7,17 @@
   box-sizing: border-box;
 }
 
-#mainNav {
-  background-color: black !important;
-}
-
 header.masthead {
   background-image: none;
   background-color: white;
 }
 
 .gallery-container {
-  margin: 20vh auto;
-  max-width: 700px;
+  margin: 15vh auto;
+  max-width: 53%;
   max-height: 80vh;
   background-color: white;
+  transition: max-width 0.5s ease;
 }
 
 
@@ -39,11 +36,11 @@ header.masthead {
 .r-3-2 {
   width: 100%;
   padding-bottom: 66.667%;
-  background-color: #ddd;
+  background-color: white;
 }
 
 .image-holder {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -59,6 +56,7 @@ header.masthead {
   position: relative;
   white-space: nowrap;
   font-size: 0;
+  transition: all 0.5s ease;
 }
 
 .item-wrapper {
@@ -87,3 +85,16 @@ header.masthead {
 .move-btn.left  { cursor: w-resize; }
 .move-btn.right { cursor: e-resize; }
 
+/* Track */
+::-webkit-scrollbar {
+    width: 20px;
+    background-color: none;
+}
+
+iframe {
+  margin: auto auto;
+}
+
+.no-display {
+  display: none;
+}
