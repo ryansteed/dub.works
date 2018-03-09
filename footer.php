@@ -23,6 +23,10 @@
           </li>
         </ul>
       </div>
+      <div class="col-md-4">
+        <span>725 23rd St NW, Washington, DC 20052</span></br>
+        <span>Mezzanine Floor</span>
+      </div>
     </div>
   </div>
 </footer>
