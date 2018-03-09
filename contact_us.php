@@ -6,7 +6,7 @@
         <h2 class="section-heading text-uppercase">Contact Us</h2>
         <h3 class="section-subheading text-muted">
         Want to join the community? Let us know</a> what excites you at <a href="mailto:volunteer@dub.works">volunteer@dub.works</a>.<br/><br/>
-          Ideas? Suggestions? Email us at <a href="mailto:contact@dub.works">contact@dub.works</a> or use the form below.
+          Ideas? Suggestions? Email us at <a href="mailto:contact@dub.works">contact@dub.works</a>.
         </h3>
       </div>
     </div>
