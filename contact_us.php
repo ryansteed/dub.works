@@ -10,7 +10,8 @@
         </h3>
       </div>
     </div>
-    <div class="row">
+    <!-- Requires EC2 SES @Joseph -->
+    <!-- <div class="row">
           <div class="col-lg-12">
             <form id="contactForm" name="sentMessage" novalidate>
               <div class="row">
@@ -38,6 +39,6 @@
               </div>
             </form>
           </div>
-        </div>
+        </div> -->
   </div>
 </section>
