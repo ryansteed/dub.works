@@ -38,5 +38,9 @@
 <!-- Plugin JavaScript -->
 <script src="<?= $baseUrl ?>vendor/jquery-easing/jquery.easing.min.js"></script>
 
+<!-- Form AJAX -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
 <!-- Custom scripts for this template -->
 <script src="<?= $baseUrl ?>js/main.js"></script>
