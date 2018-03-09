@@ -4,9 +4,9 @@
 <meta name="author" content="Ryan Steed">
 <meta name="robots" content="index,follow">
 <meta property="og:title" content="Dub Works"/>
-<meta property="og:image" content="img/logo.png"/>
+<meta property="og:image" content="<?= $baseUrl ?>img/squareLogo.png"/>
 <meta property="twitter:card" content="summary_large_image">
-<link rel="icon" href="img/logo.png" type="image/png">
+<link rel="icon" href="<?= $baseUrl ?>img/squareLogo.png" type="image/png">
 
 <!-- Bootstrap core CSS -->
 <link href="<?= $baseUrl ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
