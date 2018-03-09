@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Innovation Center, student-run incubator at GWU: project and feature page.">
+<meta name="description" content="Dub Works (http://dub.works/) Is an incubator and coworking space for any stage startup hosted at The George Washington University.  Dub Works supports its entrepreneurs and community with workshops, mentoring, a seed fund, hackathons, and more.  Located in the refurbished machine shop of the old engineering building, Dub Works is focused on community and innovation.">
 <meta name="author" content="Ryan Steed">
 <meta name="robots" content="index,follow">
 <meta property="og:title" content="Dub Works"/>
