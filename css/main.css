@@ -728,3 +728,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .card {
   height: 100%;
 }
+.card-text {
+  margin-bottom: 0;
+}
+.card-body {
+  float: bottom;
+}
+.card-img-top {
+  max-height: 350px;
+  width: auto;
+}
