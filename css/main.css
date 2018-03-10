@@ -734,7 +734,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .card-body {
   float: bottom;
 }
-.card-img-top {
+.hosts.card-img-top {
   max-height: 350px;
   width: auto;
 }

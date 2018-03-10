@@ -65,7 +65,7 @@ usort($events, "sortFunction");
           ?>
           <div class="col-lg-4 col-md-7 mb-4">
             <div class="card">
-              <a class="js-scroll-trigger" style="background-color: lightgray" href="#slides"><img class="card-img-top" src="<?= $eventImgUri ?><?= $json_data['image'] ?>" alt=""></a>
+              <a class="js-scroll-trigger" style="background-color: lightgray" href="#slides"><img class="hosts card-img-top" src="<?= $eventImgUri ?><?= $json_data['image'] ?>" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title"><h3><?= $json_data["title"] ?></h3></h4>
                 <p class="card-text"><?= $json_data["time"] ?></p>
