@@ -23,7 +23,7 @@ foreach ($dir as $fileinfo) {
     <?php include_once('nav.php');?>
 
     <!-- Header -->
-    <section class="text-center" style="padding: 0;">
+    <section class="text-center" style="padding: 50px;">
       <div class="gallery-container">
         <div class="row">
           <div class="col-lg-12 text-center">
