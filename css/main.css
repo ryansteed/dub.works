@@ -724,3 +724,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   padding: 1% 6%;
   margin: 0 6%;
 }
+
+.card {
+  height: 100%;
+}

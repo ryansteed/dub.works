@@ -6,7 +6,7 @@ include_once('config.php');
 <html lang="en">
 
   <head>
-    <title>dub.funds</title>
+    <title>dub.collabs</title>
     <?php include_once('header.php');?>
     <link href="<?= $baseUrl ?>css/sponsors.css" rel="stylesheet">
   </head>

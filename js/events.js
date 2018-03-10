@@ -105,17 +105,20 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 	});
 
 	//expand and contract
-	big = true;
-	$(".feature").hover(handlerIn, out);
+	// $(".feature").hover(handlerIn, out);
+	$(".feature").on('click',handlerIn);
+
 })();
 
 function handlerIn(e) {
 	$(".gallery-container").css("max-width","68%");
 	$(".gallery").css("opacity","0");
 	$(".gallery").css("max-height","0");
+	$(".feature").off('click').on('click',out);
 }
 function out(e) {
 	$(".gallery-container").css("max-width","53%");
 	$(".gallery").css("opacity","1");
 	$(".gallery").css("max-height","100%");
+	$(".feature").off('click').on('click',handlerIn);
 }
