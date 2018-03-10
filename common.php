@@ -54,7 +54,7 @@
     	return  strtotime($b["date"]) - strtotime($a["date"]);
 	}
 	usort($posts, "sortFunction");
-
+	
 	// // read the title value
 	// $title = $jfo->result->title;
 	// // copy the posts array to a php var

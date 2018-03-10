@@ -6,9 +6,12 @@ $events = array();
 foreach ($dir as $fileinfo) {
     if (!$fileinfo->isDot()) {
       $filename = $fileinfo->getFilename();
-      array_push($events, $eventsPath."/".$filename);
+      $string = file_get_contents($eventsPath."/".$filename);
+      $json_data = json_decode($string,true);
+      array_push($events, $json_data);
     }
 }
+usort($events, "sortFunction");
 
 ?><!DOCTYPE html>
 <html lang="en">
@@ -38,9 +41,7 @@ foreach ($dir as $fileinfo) {
         <div class="gallery-wrapper">
           <div class="gallery">
               <?php 
-                foreach($events as $key => $eventFilePath):
-                  $string = file_get_contents($eventFilePath);
-                  $json_data = json_decode($string,true);
+                foreach($events as $key => $json_data):
               ?>
                 <div class="item-wrapper">
                   <figure class="gallery-item image-holder r-3-2 <?php if($key==0){ echo('active featured-item');}?> transition" style="background-image: url(<?= $eventImgUri ?><?= $json_data['image'] ?>)"></figure>
