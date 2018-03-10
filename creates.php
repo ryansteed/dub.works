@@ -55,7 +55,7 @@ usort($events, "sortFunction");
         <div class="row text-center">
           <div class="col-md-12">
             <h3 class="section-subheading text-muted" style="margin: 100px 0 20px">Are you a GWU student/faculty with an innovative project or idea?</h3>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://docs.google.com/forms/d/1p4G9Eyc0JvHDHyVg-vMeMfsZgB-XzXiNyk-Lq89oQ-Y/edit?ts=5a79f 087">Get Featured</a>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" target="_blank" href="https://goo.gl/forms/YMe8bEyoNRlVGWzJ2">Get Featured</a>
           </div>
         </div>
       </div>
