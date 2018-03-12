@@ -53,6 +53,15 @@
 	function sortFunction( $a, $b ) {
     	return  strtotime($b["date"]) - strtotime($a["date"]);
 	}
+	function reverseSortFunction( $a, $b ) {
+    	return  strtotime($a["date"]) - strtotime($b["date"]);
+	}
+	function filterUpcoming($a) {
+		if (strtotime($a["date"])-time()>-86400) { // 86400 = number of seconds in a day
+			return true;
+		}
+		return false;
+	}
 	usort($posts, "sortFunction");
 	
 	// // read the title value

@@ -11,6 +11,8 @@ foreach ($dir as $fileinfo) {
       array_push($events, $json_data);
     }
 }
+$upcoming = array_filter($events,"filterUpcoming");
+usort($upcoming,'reverseSortFunction');
 usort($events, "sortFunction");
 
 ?><!DOCTYPE html>
@@ -31,7 +33,7 @@ usort($events, "sortFunction");
         <div class="row" id="slides">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase" style="color: black">Events</h2>
-            <h3 class="section-subheading text-muted" style="margin-bottom: 25px">coming up in Tompkins M06</h3>
+            <h3 class="section-subheading text-muted" style="margin-bottom: 25px">coming up around campus</h3>
           </div>
         </div>
         <div class="feature">
@@ -41,7 +43,7 @@ usort($events, "sortFunction");
         <div class="gallery-wrapper">
           <div class="gallery">
               <?php 
-                foreach($events as $key => $json_data):
+                foreach($upcoming as $key => $json_data):
               ?>
                 <div class="item-wrapper">
                   <figure class="gallery-item image-holder r-3-2 <?php if($key==0){ echo('active featured-item');}?> transition" style="background-image: url(<?= $eventImgUri ?><?= $json_data['image'] ?>)"></figure>
@@ -75,6 +77,13 @@ usort($events, "sortFunction");
             </div>
           </div>
           <?php endforeach; ?>
+        </div>
+      </div>
+      <div class="row text-center">
+          <div class="col-md-12">
+            <h3 class="section-subheading text-muted" style="margin: 100px 0px 20px">Want to host an event?</h3>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" target="_blank" href="https://goo.gl/forms/YMe8bEyoNRlVGWzJ2">Get Hosted</a>
+          </div>
         </div>
       </div>
     </section>
