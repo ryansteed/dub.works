@@ -417,7 +417,6 @@ header.masthead .intro-text .intro-heading {
 .timeline > li {
   position: relative;
   min-height: 50px;
-  margin-bottom: 50px;
 }
 
 .timeline > li:after, .timeline > li:before {
@@ -515,7 +514,7 @@ header.masthead .intro-text .intro-heading {
   }
   .timeline > li {
     min-height: 100px;
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
   }
   .timeline > li .timeline-panel {
     float: left;
@@ -571,9 +570,9 @@ header.masthead .intro-text .intro-heading {
     padding: 0 20px 20px 100px;
   }
   .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
-    margin-left: -85px;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
     margin-top: 40px;

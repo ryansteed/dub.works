@@ -40,14 +40,40 @@ include_once('config.php');
           <ul class="timeline">
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                <img class="rounded-circle img-fluid" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>Apply for Seed Funding</h4>
+                  <h4>Apply</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">take advantage of microfunding for rapid product prototyping, expert advice, and startup support from the GW Innovation Center</p>
+                  <p class="text-muted">mentor intros, expert advice, workshops, and startup support from the GW Innovation Center</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="subheading">Stage I</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">$100-300 prototype and team development (12 weeks)</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="subheading">Stage II</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">$300-500 validation - customer, innovation, impact, market discovery (12 weeks)</p>
                 </div>
               </div>
             </li>
@@ -57,10 +83,23 @@ include_once('config.php');
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="subheading">Status Update</h4>
+                  <h4 class="subheading">Stage III</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">apply to GWIC alumni board for funding increase</p>
+                  <p class="text-muted">$1,000 rapid prototyping &amp; redesign (up to a year)</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="subheading">Stage IV</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">variable follow up investment from the fund and/or introduction to investors</p>
                 </div>
               </div>
             </li>
