@@ -151,13 +151,12 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 0px 15px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: white;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -182,13 +181,21 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: #ffb347;
-  background-color: white;
+  background-image: url("../img/4.jpeg");
+  padding-bottom: 75px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 header.masthead .intro-text {
   margin-right: auto;
   margin-left: auto;
-  padding: 15% 0;
+  padding: 19% 0 15%;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -207,16 +214,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    margin-top: 175px;
-    margin-bottom: 75px;
-    background-image: url('../img/table.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    margin-top: 100px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
