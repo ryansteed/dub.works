@@ -4,7 +4,7 @@
 <meta name="author" content="Ryan Steed">
 <meta name="robots" content="index,follow">
 <meta property="og:title" content="Dub Works"/>
-<meta property="og:image" content="<?= $baseUrl ?>img/Dubworks_horizontal.png"/>
+<meta property="og:image" content="<?= $baseUrl ?>img/squareLogo.png"/>
 <meta property="twitter:card" content="summary_large_image">
 <link rel="icon" href="<?= $baseUrl ?>img/squareLogo.png" type="image/png">
 
