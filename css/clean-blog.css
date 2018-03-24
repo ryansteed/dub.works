@@ -24,6 +24,9 @@ blockquote {
   border-bottom-left-radius: 5px;
 }
 
+header.masthead {
+  background-image: url(../img/table.jpg);
+}
 header.masthead .overlay {
   position: absolute;
   top: 0;

@@ -9,6 +9,7 @@ include_once('config.php');
     <title>dub.works</title>
     <?php include_once('header.php');?>
     <link href="<?= $baseUrl ?>css/flip.css" rel="stylesheet">
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </head>
 
   <body id="page-top">
@@ -36,49 +37,55 @@ include_once('config.php');
     </header>
 
     <!-- About -->
-    <section id="about" class="bg-light">
+    <section id="about" class="bg">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">what we do</h3>
+          <div id="tweets" class="col-md-3 text-center" style="max-height: 120vh; overflow: scroll">
+              <a class="twitter-timeline" data-theme="light" data-link-color="#ffb347" href="https://twitter.com/gwinnocenter?ref_src=twsrc%5Etfw" data-tweet-limit="20" data-dnt="true"></a>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <p class="vertical-center">
-              The GW Innovation Center (Dub Works) in Tompkins Hall on the Foggy 
-              Bottom campus is the first dedicated physical place for cross- 
-              departmental and multidisciplinary innovation on campus. The 
-              Dub Works provides a supportive climate for ideation, creativity and 
-              entrepreneurial thinking; and it leverages existing resources to 
-              engage students, faculty, staff, alumni, and leaders from the 
-              community to address critical challenges.
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img class="img-fluid" src="<?= $baseUrl ?>img/welcome.jpg" alt="">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <img class="img-fluid" src="<?= $baseUrl ?>img/room.jpg" alt="">
-          </div>
-          <div class="col-md-6">
-            <p class="vertical-center">
-              The focal point of the 
-              Dub Works is to facilitate knowledge transfer and acquisition of hands- 
-              on skills, new domain exploration, interaction with peers from 
-              other disciplines, alumni, and like-minded people. The Dub Works aids 
-              discussions around disruptive ideas, exposure to art and affords 
-              real-world opportunities for GW students aspiring to create value 
-              for others.
-            </p>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">What We Do</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <p class="vertical-center">
+                  Dub Works is the student-run organization managing the GW Innovation Center in Tompkins Hall on the Foggy 
+                  Bottom campus, the first dedicated physical place for cross- 
+                  departmental and multidisciplinary innovation on campus. Dub Works provides a supportive climate for ideation, creativity and 
+                  entrepreneurial thinking; and it leverages existing resources to 
+                  engage students, faculty, staff, alumni, and leaders from the 
+                  community to address critical challenges.
+                </p>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="<?= $baseUrl ?>img/welcome.jpg" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <img class="img-fluid" src="<?= $baseUrl ?>img/room.jpg" alt="">
+              </div>
+              <div class="col-md-6">
+                <p class="vertical-center">
+                  The focal point of the 
+                  Dub Works is to facilitate knowledge transfer and acquisition of hands- 
+                  on skills, new domain exploration, interaction with peers from 
+                  other disciplines, alumni, and like-minded people. The Dub Works aids 
+                  discussions around disruptive ideas, exposure to art and affords 
+                  real-world opportunities for GW students aspiring to create value 
+                  for others.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+    <?php include_once('team.php'); ?>
     <?php include_once('contact_us.php'); ?>
     <?php include_once('footer.php');?>
 

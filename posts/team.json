@@ -1,0 +1,34 @@
+{
+	"sarah": {
+		"first": "Sarah",
+		"last": "Shavin",
+		"title": "Creative Fellow",
+		"pic": "sarah.jpg",
+		"student": true,
+		"bio": ""
+	},
+	"konstantin": {
+		"first": "Konstantin",
+		"last": "Mitic",
+		"title": "Medical Fellow",
+		"pic": "konstantin.png",
+		"student": true,
+		"bio": ""
+	},
+	"ryan": {
+		"first": "Ryan",
+		"last": "Steed",
+		"title": "Tech Fellow",
+		"pic": "ryan.jpg",
+		"student": true,
+		"bio": "Developer, analyst, modeler, co-founder, student, and <a href='https://ryansteed.github.io/'>other stuff</a>."
+	},
+	"joseph": {
+		"first": "Joseph",
+		"last": "Schiarizzi",
+		"title":"",
+		"pic": "joseph.jpg",
+		"student": true,
+		"bio": "Founder of <a href='fourthwavestudios.com'>Fourth Wave</a> and developer with goals."
+	}
+}

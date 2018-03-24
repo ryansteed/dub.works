@@ -13,10 +13,9 @@ include_once('config.php');
   <body id="page-top">
     <?php include_once('nav.php');?>
 
-    <!-- Services -->
-    <section id="services">
+    <section id="funds-header">
       <div class="container">
-        <div class="row">
+        <div class="row vertical-center">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">IC Incubator</h2>
             <h3 class="section-subheading text-muted">alumni-sponsored seed fund for student startups</h3>

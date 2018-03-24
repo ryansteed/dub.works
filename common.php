@@ -13,6 +13,8 @@
 	$projectsUri = "projects";
 	$projectsPath = $postsPath."/".$projectsUri;
 	$projectImgUri = $imgUri.$projectsUri."/";
+
+	$teamImgUri = $imgUri."team/";
 	
 	$postUri = $prefixUri."post.php";
 	
@@ -61,6 +63,18 @@
 			return true;
 		}
 		return false;
+	}
+	function filterStudents($a) {
+		if ($a["student"]) {
+			return true;
+		}
+		return false;
+	}
+	function reverseFilterStudents($a) {
+		if ($a["student"]) {
+			return false;
+		}
+		return true;
 	}
 	usort($posts, "sortFunction");
 	

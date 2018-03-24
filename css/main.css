@@ -193,8 +193,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto 50px;
   padding: 19% 0 15%;
 }
 
@@ -214,7 +213,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    margin-top: 100px;
+    padding-top: 27%;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
@@ -585,10 +584,19 @@ header.masthead .intro-text .intro-heading {
   text-align: center;
 }
 
-.team-member img {
+.team-member .image {
   width: 225px;
   height: 225px;
   border: 7px solid #fff;
+  border-radius: 110px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .team-member h4 {
@@ -598,7 +606,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member p {
-  margin-top: 0;
+  margin: 0 auto;
+  width: 85%;
 }
 
 section#contact {
@@ -735,4 +744,42 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   max-height: 350px;
   width: auto;
   max-width: 100%;
+}
+
+@media(max-width: 768px) {
+  #tweets {
+    display: none;
+  }
+}
+
+/*#funds-header:before {
+  content: "";
+  position: fixed;
+  left: -20px;
+  bottom: -20px;
+  z-index: -1;
+
+  display: block;
+  background-image: url('../img/room.jpg');
+  background-size:cover;
+  width: 105%;
+  height: 100%;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+#funds-header {
+  position: relative;
+  height: 100vh;
+}*/
+
+footer {
+  background-color: white;
+}
+
+#team .subheader {
+  margin: 50px 0
 }

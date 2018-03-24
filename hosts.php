@@ -59,7 +59,15 @@ usort($events, "sortFunction");
       </div>
     </section>
 
-    <section class="bg-light" style="padding-top: 50px">
+    <section class="bg-light" id="calendar">
+      <div class="container">
+        <div class="row">
+          <iframe src="https://calendar.google.com/calendar/b/1/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=csp8dpd2enffr9jn1j9rva2htc%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg" style="padding-top: 50px">
       <div class="container">
         <div class="row text-center">
           <?php
@@ -84,14 +92,6 @@ usort($events, "sortFunction");
             <h3 class="section-subheading text-muted" style="margin: 100px 0px 20px">Want to host an event?</h3>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" target="_blank" href="https://goo.gl/forms/YMe8bEyoNRlVGWzJ2">Get Hosted</a>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="calendar">
-      <div class="container">
-        <div class="row">
-          <iframe src="https://calendar.google.com/calendar/b/1/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=csp8dpd2enffr9jn1j9rva2htc%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
       </div>
     </section>
