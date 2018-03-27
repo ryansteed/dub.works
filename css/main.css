@@ -598,6 +598,9 @@ header.masthead .intro-text .intro-heading {
   -o-background-size: cover;
   background-size: cover;
 }
+.team-member .image:hover {
+  opacity: 0.8;
+}
 
 .team-member h4 {
   margin-top: 25px;
