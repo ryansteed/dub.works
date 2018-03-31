@@ -9,22 +9,22 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ml-auto">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="<?= $baseUrl ?>hosts.php">hosts</a>
+          <a class="nav-link js-scroll-trigger" href="<?= $baseUrl ?>hosts">hosts</a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="<?= $baseUrl ?>creates.php">creates</a>
+          <a class="nav-link js-scroll-trigger" href="<?= $baseUrl ?>creates">creates</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="<?= $baseUrl ?>collabs.php">collabs</a>
+          <a class="nav-link js-scroll-trigger" href="<?= $baseUrl ?>collabs">collabs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="<?= $baseUrl ?>funds.php">funds</a>
+          <a class="nav-link js-scroll-trigger" href="<?= $baseUrl ?>funds">funds</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= $baseUrl ?>blogs.php">blogs</a>
+          <a class="nav-link" href="<?= $baseUrl ?>blogs">blogs</a>
         </li>
       </ul>
     </div>
