@@ -4,5 +4,6 @@
 	"title": "Spring Demo Day",
 	"author": "Dub Works",
 	"location": "GW Innovation Center",
-	"image": "springdd.png"
+	"image": "springdd.png",
+	"featured": false
 }

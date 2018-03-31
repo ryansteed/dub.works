@@ -3,5 +3,6 @@
 	"title": "3D Bioprinting",
 	"author": "Randy Graves",
 	"blog": "Outside the Box",
-	"html": "html/12Mar18.html"
+	"html": "html/12Mar18.html",
+	"featured": false
 }

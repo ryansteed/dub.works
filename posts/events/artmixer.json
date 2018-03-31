@@ -4,5 +4,6 @@
 	"title": "Innovation, Art & Design Mixer",
 	"author": "Dub Works",
 	"location": "GW Innovation Center",
-	"image": "innovationArtDesignMixer.jpg"
+	"image": "innovationArtDesignMixer.jpg",
+	"featured": false
 }

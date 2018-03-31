@@ -40,7 +40,7 @@ usort($events, "sortFunction");
           ?>
           <div class="col-lg-4 col-md-7 mb-4">
             <div class="card">
-              <img class="card-img-top" src="<?= $json_data['image'] ?>" alt="">
+              <a class="gray"><img class="card-img-top" src="<?= $json_data['image'] ?>" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title"><a href="<?= $json_data["url"] ?>"><h3><i class="fa fa-link"></i> <?= $json_data["title"] ?></h3></a></h4>
                 <p class="card-text"><?= $json_data["description"] ?></p>

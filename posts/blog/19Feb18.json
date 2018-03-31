@@ -3,5 +3,6 @@
 	"title": "3D Metal Printing",
 	"author": "Randy Graves",
 	"blog": "Outside the Box",
-	"html": "html/19Feb18.html"
+	"html": "html/19Feb18.html",
+	"featured": false
 }

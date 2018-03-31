@@ -53,7 +53,7 @@
 	// sort by date
 	date_default_timezone_set("America/New_York");
 	function sortFunction( $a, $b ) {
-    	return  strtotime($b["date"]) - strtotime($a["date"]);
+		return strtotime($b["date"]) - strtotime($a["date"]);
 	}
 	function reverseSortFunction( $a, $b ) {
     	return  strtotime($a["date"]) - strtotime($b["date"]);

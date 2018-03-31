@@ -3,6 +3,11 @@ body {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
 p {
   line-height: 1.75;
 }
@@ -743,16 +748,20 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .card-body {
   float: bottom;
 }
-.hosts.card-img-top {
-  max-height: 350px;
-  width: auto;
-  max-width: 100%;
+.card a.gray {
+  background-color: lightgray;
 }
-
-@media(max-width: 768px) {
-  #tweets {
-    display: none;
-  }
+.card .social-buttons li a {
+  background-color: #ffb347;
+}
+.card .social-buttons li a:hover {
+  background-color: black;
+}
+.card-img-top {
+  max-height: 350px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 /*#funds-header:before {

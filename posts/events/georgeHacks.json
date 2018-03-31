@@ -4,5 +4,6 @@
 	"title": "George Hacks",
 	"author": "Konstantin Mitic",
 	"location": "SEH B1",
-	"image": "georgeHacks.jpg"
+	"image": "georgeHacks.jpg",
+	"featured": false
 }
