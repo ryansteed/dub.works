@@ -3,5 +3,6 @@
 	"title": "Generative Design",
 	"author": "Randy Graves",
 	"blog": "Outside the Box",
-	"html": "html/26Feb18.html"
+	"html": "html/26Feb18.html",
+	"featured": false
 }

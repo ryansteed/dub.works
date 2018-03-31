@@ -4,5 +4,6 @@
 	"title": "Design Thinking Workshop",
 	"author": "Dub Works",
 	"location": "Innovation Center",
-	"image": "designThinkingWorkshop.png"
+	"image": "designThinkingWorkshop.png",
+	"featured": false
 }

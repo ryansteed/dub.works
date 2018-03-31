@@ -4,5 +4,6 @@
 	"title": "3D Metal Printing",
 	"author": "Dub Works",
 	"location": "Innovation Center",
-	"image": "excelWorkshop.png"
+	"image": "excelWorkshop.png",
+	"featured": false
 }

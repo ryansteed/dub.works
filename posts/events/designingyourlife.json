@@ -1,8 +1,9 @@
 {
 	"date": "April 12, 2018",
 	"time": "5:30pm",
-	"title": "George Hacks",
+	"title": "Designing Your Life Workshop Series",
 	"author": "Design Thinking Club",
 	"location": "GW Innovation Center",
-	"image": "designYourLife.png"
+	"image": "designYourLife.png",
+	"featured": false
 }

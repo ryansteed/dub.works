@@ -4,5 +4,6 @@
 	"title": "Innovation Challenge: Puerto Rico",
 	"author": "Dub Works",
 	"location": "SEH Green Wall, Lehman Auditorium, H Street, & Tompkins",
-	"image": "puertoRico.jpg"
+	"image": "puertoRico.jpg",
+	"featured": true
 }

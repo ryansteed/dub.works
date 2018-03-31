@@ -6,7 +6,7 @@ $json_data = json_decode($string,true);
 
 ?>
 <!-- Team -->
-<section class="bg-light" id="team">
+<section class="bg" id="team">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">

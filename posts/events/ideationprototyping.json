@@ -4,5 +4,6 @@
 	"title": "Ideation & Fast Prototyping",
 	"author": "Dub Works",
 	"location": "GW Innovation Center",
-	"image": "fastPrototyping.png"
+	"image": "fastPrototyping.png",
+	"featured": false
 }

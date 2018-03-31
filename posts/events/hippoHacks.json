@@ -4,5 +4,6 @@
 	"title": "Hippo Hacks - GWU Data Analytics Hackathon",
 	"author": "Hippo Hacks",
 	"location": "SEH",
-	"image": "hippoHacks.jpg"
+	"image": "hippoHacks.jpg",
+	"featured": false
 }

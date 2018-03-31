@@ -4,5 +4,6 @@
 	"title": "Innovation Challenge: Puerto Rico",
 	"author": "Dub Works",
 	"location": "GW Innovation Center",
-	"image": "printroevent.jpg"
+	"image": "printroevent.jpg",
+	"featured": false
 }
