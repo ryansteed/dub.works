@@ -14,7 +14,7 @@ foreach ($dir as $fileinfo) {
     }
 }
 usort($events, "sortFunction");
-$project_feature = $events[0];
+$project_feature = $events[rand(0,count($events)-1)];
 
 $dir = new DirectoryIterator($eventsPath);
 $events = array();
