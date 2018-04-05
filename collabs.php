@@ -58,6 +58,12 @@ include_once('config.php');
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6">
+                    <p>Georgetown Maker Hub</p>
+                    <a href="https://www.library.georgetown.edu/makerhub">
+                        <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/makerHub.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
                     <p>Launch Pad</p>
                     <a href="https://www.facebook.com/LaunchPadGW/">
                         <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/launchpad.png" alt="">
