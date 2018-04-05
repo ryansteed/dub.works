@@ -70,21 +70,7 @@ usort($events, "sortFunction");
     <section class="bg" style="padding-top: 50px">
       <div class="container">
         <div class="row text-center">
-          <?php
-            foreach($events as $key => $json_data):
-          ?>
-          <div class="col-lg-4 col-md-7 mb-4">
-            <div class="card">
-              <a class="js-scroll-trigger" style="background-color: lightgray" href="#slides"><img class="hosts card-img-top" src="<?= $eventImgUri ?><?= $json_data['image'] ?>" alt=""></a>
-              <div class="card-body">
-                <h4 class="card-title"><h3><?= $json_data["title"] ?></h3></h4>
-                <p class="card-text"><?= $json_data["time"] ?></p>
-                <p class="card-text"><?= $json_data["date"] ?></p>
-                <p class="card-text"><?= $json_data["location"] ?></p>
-              </div>
-            </div>
-          </div>
-          <?php endforeach; ?>
+          <?php include_once('eventCards.php'); ?>
         </div>
       </div>
       <div class="row text-center">
