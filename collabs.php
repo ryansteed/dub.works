@@ -24,7 +24,7 @@ include_once('config.php');
                 <div class="col-md-4 col-sm-6">
                     <p>George Hacks</p>
                     <a href="http://georgehacks.org/">
-                        <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/georgehacks.png" alt="">
+                        <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/georgeHacks.png" alt="">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6">

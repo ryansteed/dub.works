@@ -26,8 +26,8 @@ foreach ($dir as $fileinfo) {
       array_push($events, $json_data);
     }
 }
-$upcoming = array_filter($events,"filterUpcoming");
-usort($upcoming, "reverseSortFunction");
+$events = array_filter($events,"filterUpcoming");
+usort($events, "reverseSortFunction");
 $event_feature = $events[0];
 
 ?><!DOCTYPE html>
