@@ -15,6 +15,14 @@
 		"student": true,
 		"bio": ""
 	},
+	"michael": {
+		"first": "Michael",
+		"last": "Ready",
+		"title": "Fellow",
+		"pic": "michael.jpg",
+		"student": true,
+		"bio": ""
+	},
 	"ryan": {
 		"first": "Ryan",
 		"last": "Steed",
@@ -23,13 +31,13 @@
 		"student": true,
 		"bio": "Developer, analyst, modeler, co-founder, student, and <a href='https://ryansteed.github.io/'>other stuff</a>."
 	},
-	"michael": {
-		"first": "Michael",
-		"last": "Ready",
+	"sebastian": {
+		"first": "Sebastian",
+		"last": "Lora",
 		"title": "Fellow",
-		"pic": "michael.jpg",
+		"pic": "sebastian.jpeg",
 		"student": true,
-		"bio": ""
+		"bio": "Mechanical Engineering <br> Patent Law"
 	},
 	"joseph": {
 		"first": "Joseph",
