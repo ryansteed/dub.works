@@ -22,68 +22,59 @@ include_once('config.php');
                     <hr>
                 </div>
                 <div class="col-md-4 col-sm-6">
-                    <p>Agnes</p>
-                    <a href="https://www.agnes.io/">
-                        <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/agnes.png" alt="">
+                    <p>George Hacks</p>
+                    <a href="http://georgehacks.org/">
+                        <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/georgehacks.png" alt="">
                     </a>
                 </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <p>Berg Bites</p>
-                    <a href="http://bergbites.com">
-                        <img class="img-responsive img-portfolio img-hover" src="https://static.wixstatic.com/media/7dc892_28076b162ff84050aab0dea67445e533~mv2.png/v1/crop/x_0,y_106,w_1200,h_565/fill/w_250,h_150,al_c,usm_0.66_1.00_0.01/7dc892_28076b162ff84050aab0dea67445e533~mv2.png" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <p>Drwr</p>
-                    <a href="http://rowlandz.com/drwr-static/index.html">
-                        <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/drwr.png" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <p>Fourth Wave</p>
-                    <a href="http://fourthwavestudios.com">
-                        <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/4ws.png" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <p>Give Butter</p>
-                    <a href="https://givebutter.com/story">
-                        <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/givebutter.png" alt="">
-                    </a>
-                </div>
-
                 <div class="col-md-4 col-sm-6">
                     <p>Hackital</p>
                     <a href="http://hackital.io">
                         <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/hackital.png" alt="">
                     </a>
                 </div>
-
+                <div class="col-md-4 col-sm-6">
+                    <p>Fourth Wave</p>
+                    <a href="http://fourthwavestudios.com">
+                        <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/4ws.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <p>Agnes</p>
+                    <a href="https://www.agnes.io/">
+                        <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/agnes.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <p>Berg Bites</p>
+                    <a href="http://bergbites.com">
+                        <img class="img-responsive img-portfolio img-hover" src="https://static.wixstatic.com/media/7dc892_28076b162ff84050aab0dea67445e533~mv2.png/v1/crop/x_0,y_106,w_1200,h_565/fill/w_250,h_150,al_c,usm_0.66_1.00_0.01/7dc892_28076b162ff84050aab0dea67445e533~mv2.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <p>Give Butter</p>
+                    <a href="https://givebutter.com/story">
+                        <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/givebutter.png" alt="">
+                    </a>
+                </div>
                 <div class="col-md-4 col-sm-6">
                     <p>Launch Pad</p>
                     <a href="https://www.facebook.com/LaunchPadGW/">
                         <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/launchpad.png" alt="">
                     </a>
                 </div>
-
                 <div class="col-md-4 col-sm-6">
                     <p>Office of Innovation &amp Entrepreneurship</p>
                     <a href="website link">
                         <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/entrepreneurship.png" alt="">
                     </a>
                 </div>
-
                 <div class="col-md-4 col-sm-6">
                     <p>Represently</p>
                     <a href="https://represently.com/">
                         <img class="img-responsive img-portfolio img-hover" src="<?= $baseUrl ?>img/portfolio-items/represently.png" alt="">
                     </a>
                 </div>
-
             </div>
         </div>
     </section>

@@ -14,12 +14,14 @@ mygrey #CCCCCC
 */
 
 .img-portfolio {
-    margin-bottom: 30px;
+    margin: auto auto 30px;
 
     position: relative;
     float: middle;
-    width:  250px;
-    height: 250px;
+    height: auto;
+    width: auto;
+    max-width:  250px;
+    max-height: 250px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
