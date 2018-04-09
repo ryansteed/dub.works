@@ -81,13 +81,21 @@ $event_feature = $events[0];
           </div>
           <div class="col-lg-4 col-md-7 mb-4">
             <div class="card">
-              <a class="js-scroll-trigger gray" href="#slides"><img class="hosts card-img-top" src="<?= $eventImgUri ?><?= $event_feature['image'] ?>" alt=""></a>
-              <div class="card-body">
-                <h4 class="card-title"><h3><?= $event_feature["title"] ?></h3></h4>
-                <p class="card-text"><?= $event_feature["time"] ?></p>
-                <p class="card-text"><?= $event_feature["date"] ?></p>
-                <p class="card-text"><?= $event_feature["location"] ?></p>
-              </div>
+              <a class="js-scroll-trigger" style="background-color: lightgray" href="#slides"><img class="hosts card-img-top" src="<?= $eventImgUri ?><?= $event_feature['image'] ?>" alt=""></a>
+            <div class="card-body">
+              <?php
+                if (array_key_exists("url",$event_feature)):
+              ?>
+              <h4 class="card-title"><a href="<?= $event_feature["url"] ?>"><h3><i class="fa fa-link"></i> <?= $event_feature["title"] ?></h3></a></h4>
+              <?php
+                else:
+              ?>
+              <h4 class="card-title"><h3><?= $event_feature["title"] ?></h3></h4>
+              <?php endif; ?>
+              <p class="card-text"><?= $event_feature["time"] ?></p>
+              <p class="card-text"><?= $event_feature["date"] ?></p>
+              <p class="card-text"><?= $event_feature["location"] ?></p>
+            </div>
               <div class="card-footer">
                 <a href="<?= $baseUrl ?>hosts" target="_blank" class="btn btn-primary">All Events</a>
               </div>
