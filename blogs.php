@@ -21,7 +21,7 @@ $thisUrl = $baseUrl . 'blog.php'
       <div class="container">
         <div class="intro-text">
           <div class="intro-heading text-uppercase">Outside the Box</div>
-          <div class="intro-lead-in">by Randy Graves</div>
+          <div class="intro-lead-in">by <a class="js-scroll-trigger" href="#Randy Graves">Randy Graves</a></div>
         </div>
       </div>
     </header>
