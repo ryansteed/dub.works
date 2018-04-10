@@ -42,11 +42,31 @@ $thisUrl = $baseUrl . 'blog.php'
                   </h3>
                 </a>
                 <p class="post-meta">Posted by
-                  <a href="#"><?= $post["author"]; ?></a>
+                  <a class="js-scroll-trigger" href="#<?= $post["author"]; ?>"><?= $post["author"]; ?></a>
                   on <?= $post["date"]; ?></p>
               </div>
               <hr>
             <?php endforeach; ?>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Randy Graves" class="bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">About the Author</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="team-member">
+              <div class="image" style="background-image: url('<?= $teamImgUri."randy.jpeg" ?>'"></div>
+              <h4>Randolph A. Graves, Jr.</h4>
+              <p class="text-muted">President, Graves Technology Inc.</p>
+              <br>
+              <p class="text-left">Dr. Graves has over 40 years experience in aerospace technology research, development, commercialization and management. He served for twenty-six years with NASA, finishing his career as the Director of the Aerodynamics Division in the Office of Aeronautics and Space Technology at NASA Headquarters. He has served on numerous managerial and technical panels and committees including being NASA’s member of the White House's Federal Coordinating Council on Science Engineering and Technology Subcommittee on High Performance Computing and as NASA's member of NATO's Advisory Group on Aerospace Research and Development, Fluid Dynamics Panel where he was Chairman of the Computational Fluid Dynamics Subcommittee.<br><br> Since leaving NASA, he has been the CEO and Chairman of several start-up companies and continues his technology consulting through Graves Technology Inc., a consulting company he founded in 1991 and has over the years assisted numerous clients in identifying, assessing, and evaluation technologies for commercialization. He has written over forty technology assessment analyses for international clients and completed a Grant from the Department of Energy on Software Technology Transfer.  Dr. Graves was awarded a Sloan Fellowship at Stanford University’s Graduate School of Business in 1982. During his career he has published over 60 scientific and technical reports, book sections, conference papers, and magazine articles. He is listed in the Oxford Who’s Who Elite Registry of Extraordinary Individuals, 1992-1993 and in the Sterling Who’s Who Executive Edition, 1994.</p>
+            </div>
           </div>
         </div>
       </div>

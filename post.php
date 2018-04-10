@@ -29,7 +29,7 @@
               <h1><?= $post["title"] ?></h1>
               <h2 class="subheading"><?= $post["blog"] ?></h2>
               <span class="meta">Posted by
-                <a href="#"><?= $post["author"] ?></a>
+                <a href="<?= $baseUri ?>blogs.php#<?= $post["author"] ?>"><?= $post["author"] ?></a>
                 on <?= $post["date"] ?></span>
             </div>
           </div>
