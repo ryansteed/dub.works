@@ -45,7 +45,7 @@ $event_feature = $events[0];
     <?php include_once('nav.php');?>
 
     <!-- Header -->
-    <header class="masthead">
+    <header id="top" class="masthead">
       <div class="container">
         <div class="intro-text bg" data-ibg-bg="<?= $baseUrl ?>img/table.jpg">
           <div class="intro-heading text-uppercase Iam">
@@ -63,6 +63,22 @@ $event_feature = $events[0];
         </div>
       </div>
     </header>
+
+    <div class="container"> <!-- TODO: Make this tabs -->
+      <div id="secondary-nav" class="row text-center navbar-secondary">
+          <ul class="navbar-nav navbar-expand-lg text-center">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">What We Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Who We Are</a>
+            </li>
+            </ul>
+        </div>
+    </div>
 
     <section id="features" class="bg">
       <div class="container">

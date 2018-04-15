@@ -137,7 +137,7 @@ img::-moz-selection {
   color: darkorange;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link {
+#mainNav .navbar-nav .nav-item .nav-link, .navbar-secondary .navbar-nav .nav-time .nav-link {
   font-size: 90%;
   font-weight: 400;
   padding: 0.75em 0;
@@ -153,6 +153,7 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: black;
 }
+
 
 @media (min-width: 992px) {
   #mainNav {
@@ -170,7 +171,14 @@ img::-moz-selection {
     transition: all 0.3s;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    padding: 1.1em 1em !important;
+    padding: 1.1em 1em !important;    
+  }
+  .navbar-secondary .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 6em !important;
+  }
+  .navbar-secondary {
+    width: auto;
+    margin: 2em auto 0 9em;
   }
   #mainNav.navbar-shrink {
     padding-top: 0;
