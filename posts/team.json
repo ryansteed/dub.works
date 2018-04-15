@@ -5,7 +5,7 @@
 		"title": "Creative Fellow",
 		"pic": "sarah.jpg",
 		"student": true,
-		"bio": ""
+		"bio": "Learns by experience and invention."
 	},
 	"konstantin": {
 		"first": "Konstantin",
@@ -46,5 +46,29 @@
 		"pic": "joseph.jpg",
 		"student": true,
 		"bio": "Founder of <a href='fourthwavestudios.com'>Fourth Wave</a> and developer with goals."
+	},
+	"rodney": {
+		"first": "Rodney",
+		"last": "Lake",
+		"title": "",
+		"pic": "rodney.png",
+		"student": false,
+		"bio": "Investor."
+	},
+	"bojana": {
+		"first": "Bojana",
+		"last": "Jankovic",
+		"title": "",
+		"pic": "bojana.png",
+		"student": false,
+		"bio": "Adventuresome student. Cat lover."
+	},
+	"johnny": {
+		"first": "Johnny",
+		"last": "Chou",
+		"title": "",
+		"pic": "johnny.png",
+		"student": false,
+		"bio": "Excel nerd"
 	}
 }

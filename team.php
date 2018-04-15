@@ -31,11 +31,11 @@ $json_data = json_decode($string,true);
 		</div>
       	<?php endforeach; ?>
     </div>
-    <!-- <div class="row">
+    <div class="row">
     	<div class="col-lg-12 text-center">
     		<h3 class="section-heading subheader text-muted">Faculty Sponsors</h3>
     	</div>
-    </div> -->
+    </div>
     <div class="row">
 		<?php
 		    foreach(array_filter($json_data,"reverseFilterStudents") as $key => $item):
