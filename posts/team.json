@@ -13,7 +13,7 @@
 		"title": "Medical Fellow",
 		"pic": "konstantin.png",
 		"student": true,
-		"bio": ""
+		"bio": "Product development, 3D-printer enthusiast, very motivated, doer"
 	},
 	"michael": {
 		"first": "Michael",
@@ -21,7 +21,7 @@
 		"title": "Fellow",
 		"pic": "michael.jpg",
 		"student": true,
-		"bio": ""
+		"bio": "Operations expert, driven, goal-oriented"
 	},
 	"ryan": {
 		"first": "Ryan",
@@ -54,6 +54,14 @@
 		"pic": "rodney.png",
 		"student": false,
 		"bio": "Investor."
+	},
+	"erica": {
+		"first": "Erica",
+		"last": "Wortham",
+		"title": "",
+		"pic": "erica.jpg",
+		"student": false,
+		"bio": "ethnographer, building creative infrastructure and curriculum"
 	},
 	"bojana": {
 		"first": "Bojana",
