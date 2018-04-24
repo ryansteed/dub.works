@@ -315,3 +315,7 @@ footer {
   margin: 30px 0px;
   width: 95%;
 }
+
+iframe {
+  margin: 30px auto;
+}

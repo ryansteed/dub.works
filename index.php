@@ -80,7 +80,7 @@ $event_feature = $events[0];
         </div>
     </div>
 
-    <section id="features" class="bg">
+    <section id="features" class="bg" style="padding-top: 50px">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-4 col-md-7 mb-4">
