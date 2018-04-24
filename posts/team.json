@@ -47,6 +47,14 @@
 		"student": true,
 		"bio": "Founder of <a href='fourthwavestudios.com'>Fourth Wave</a> and developer with goals."
 	},
+	"annamaria": {
+		"first": "Annamaria",
+		"last": "Konya Tannon",
+		"title": "",
+		"pic": "annamaria.jpg",
+		"student": false,
+		"bio": "Evangelist"
+	},
 	"rodney": {
 		"first": "Rodney",
 		"last": "Lake",
@@ -62,6 +70,14 @@
 		"pic": "erica.jpg",
 		"student": false,
 		"bio": "ethnographer, building creative infrastructure and curriculum"
+	},
+	"randy": {
+		"first": "Randy",
+		"last": "Graves",
+		"title": "",
+		"pic": "randy.jpeg",
+		"student": false,
+		"bio": ""
 	},
 	"bojana": {
 		"first": "Bojana",
