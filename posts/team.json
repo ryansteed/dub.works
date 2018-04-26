@@ -23,6 +23,14 @@
 		"student": true,
 		"bio": "Operations expert, driven, goal-oriented"
 	},
+	"isabella": {
+		"first": "Isabella",
+		"last": "Sardegna",
+		"title": "",
+		"pic": "bella.jpeg",
+		"student": true,
+		"bio": ""
+	},
 	"ryan": {
 		"first": "Ryan",
 		"last": "Steed",
