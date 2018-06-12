@@ -53,6 +53,12 @@ usort($events, "sortFunction");
           <?php endforeach; ?>
         </div>
         <div class="row text-center">
+            <div class="col-md-12">
+              <h3 class="section-subheading text-muted" style="margin: 100px 0 20px">Do you need access to 3D printers for a project? Submit a request!</h3>
+              <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe-oSb6E-3_XSlNhxjhdWfZo79HYlBy9b_-prSy_SUyfkONRQ/viewform">3D Print</a>
+            </div>
+        </div>
+        <div class="row text-center">
           <div class="col-md-12">
             <h3 class="section-subheading text-muted" style="margin: 100px 0 20px">Are you a GWU student/faculty with an innovative project or idea?</h3>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" target="_blank" href="https://goo.gl/forms/YMe8bEyoNRlVGWzJ2">Get Featured</a>
@@ -60,7 +66,7 @@ usort($events, "sortFunction");
         </div>
       </div>
     </section>
-        
+
 
     <?php include_once('contact_us.php'); ?>
     <?php include_once('footer.php');?>
