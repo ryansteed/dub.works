@@ -1,7 +1,9 @@
 <?php
 
 include_once('config.php');
-$thisUrl = $baseUrl . 'blog.php'
+$thisUrl = $baseUrl . 'blog.php';
+
+$posts = array_filter($posts,"filterPast");
 
 ?><!DOCTYPE html>
 <html lang="en">

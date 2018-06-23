@@ -64,6 +64,12 @@
 		}
 		return false;
 	}
+	function filterPast($a) {
+		if (strtotime($a["date"])-time()<-0) { // 86400 = number of seconds in a day
+			return true;
+		}
+		return false;
+	}
 	function filterStudents($a) {
 		if ($a["student"]) {
 			return true;
